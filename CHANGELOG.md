@@ -4,5 +4,7 @@
 * Criado as controllers
 * Adicionado CHANGELOG 
 * Criado a base das views
+* Adicionado CSS 
+* Criada a base da estrutura da HOME
 
 ## Correções de bug
