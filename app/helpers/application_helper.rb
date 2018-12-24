@@ -1,7 +1,7 @@
 module ApplicationHelper
   def menu
     items = [ home, skills, contact ]
-    content_tag :ul, :class => "navpils navbar-nav navbar-center" do
+    content_tag :ul do
       items.collect { |item| concat item}
     end
   end
@@ -15,6 +15,6 @@ module ApplicationHelper
   end
 
   def contact
-    link_to "Contact | ", contact_index_path
+    link_to "Contact", contact_index_path
   end
 end
