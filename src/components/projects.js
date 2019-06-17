@@ -46,13 +46,13 @@ class Projects extends Component {
 
           {/* Project Portfolio */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#6495ED', height: '176px', background: 'url(https://user-images.githubusercontent.com/31450742/59531406-396dbe00-8ebc-11e9-9355-237f7cd29752.png) center / cover'}} >PORTFÓLIO</CardTitle>
+            <CardTitle style={{color: '#6495ED', height: '176px', background: 'url(https://user-images.githubusercontent.com/31450742/59555897-802ce800-8f90-11e9-9f26-f61386dcf89c.png) center / cover'}} >PORTFÓLIO</CardTitle>
             <CardText>
               This is my project about my portfolio.
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/fabiosoaresv/portfolio" rel="noopener noreferrer" target="_blank">Github</a></Button>
-              <Button colored>Live Demo</Button>
+              <Button colored><a href="http://fabiosoares.herokuapp.com" rel="noopener noreferrer" target="_blank">Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
