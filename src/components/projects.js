@@ -105,7 +105,8 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/fabiosoaresv/doitnow" rel="noopener noreferrer" target="_blank">Github</a></Button>
-              <Button colored>Live Demo</Button>
+              <Button colored><a href="https://doitn0w.herokuapp.com/" rel="noopener noreferrer" target="_blank">Live Demo</a></Button>
+
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
