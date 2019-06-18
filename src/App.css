@@ -139,28 +139,33 @@ background: linear-gradient(to right, #000000, #D3D3D3, #696969); /* W3C, IE 10+
 }
 
 .banner-text h2 {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 22px;
   color: white;
   flex: 1;
   text-align: center;
   top: 0;
   left: 0;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
 }
 
 .banner-text h3 {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 22px;
   color: white;
   flex: 1;
   text-align: center;
   top: 0;
   left: 0;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
 }
 
 .banner-text h4 {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-size: 40px;
+  font-weight: bold;
   font-weight: 400;
   line-height: 1.35;
   letter-spacing: 0.05em;
