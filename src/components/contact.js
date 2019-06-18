@@ -19,10 +19,10 @@ class Contact extends Component {
                 <h4>Contact</h4>
                 <hr/>
                   <List>
-                    <h2><i className="fa fa-whatsapp" aria-hidden="true"/>
-                      +55 11 95916-4508</h2>
-                    <h3><i className="fa fa-envelope" aria-hidden="true"/>
-                      fabiosoares@outlook.com.br</h3>
+                    <h2><i className="fa fa-whatsapp" aria-hidden="true"/></h2>
+                    <h2>+55 11 95916-4508</h2>
+                    <h3><i className="fa fa-envelope" aria-hidden="true"/></h3>
+                    <h3>fabiosoares@outlook.com.br</h3>
                   </List>
               </div>
             </div>
