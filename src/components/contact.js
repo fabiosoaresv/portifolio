@@ -17,11 +17,11 @@ class Contact extends Component {
             <div className="banner-text">
 
             <div className="contact-list">
-            <h1>Contato</h1>
+            <h1>Contact</h1>
             <hr/>
             <List>
 
-            <h2><i className="fa fa-phone-square" aria-hidden="true"/>
+            <h2><i className="fa fa-whatsapp" aria-hidden="true"/>
             +55 11 95916-4508</h2>
             <h3><i className="fa fa-envelope" aria-hidden="true"/>
             fabiosoares@outlook.com.br</h3>
