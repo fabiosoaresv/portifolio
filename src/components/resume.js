@@ -21,15 +21,21 @@ class Resume extends Component {
 
             <h2 style={{paddingTop: '2em'}}>Fabio Soares Venturelli</h2>
             <h4 style={{color: 'grey'}}>DevOps</h4>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            <hr style={{borderTop: '3px solid #833fb2', width: '80%'}}/>
             <p>Bachelor Degree in Computer Science from Universidade Paulista, where I had the privilege of a PROUNI scholarship, a degree in Computer Technician from Escola Técnica Estadual Centro Paula Souza, experience in the area of ​​Information Technology with focused on Identity Access Management and Privileged Access Management, high degree knowledge Server Windows and Linux, excellent resources for analysis, writing, reasoning, communication and information technology, recognized throughout the career for professionalism, fast learning.</p>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            <hr style={{borderTop: '3px solid #833fb2', width: '80%'}}/>
             <h5>Address</h5>
             <p>Piraju, São Paulo, Brasil</p>
             <h5>Phone</h5>
             <p>+55 (11) 9 5916-4508</p>
             <h5>Email</h5>
             <p>fabiosoares@outlook.com.br</p>
+            <div className="landing-grid-link">
+              <h5>Currículo (PDF)</h5>
+              <a href="https://drive.google.com/open?id=1u4oYnhcoSlPvsPdU_aBm02wA43PAqiVn" rel="noopener noreferrer" target="_blank">
+                <p><i className="fa fa-link" aria-hidden="true" /> download</p>
+              </a>
+            </div>
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
