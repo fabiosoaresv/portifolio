@@ -20,7 +20,7 @@ class Resume extends Component {
             </div>
 
             <h2 style={{paddingTop: '2em'}}>Fabio Soares Venturelli</h2>
-            <h4 style={{color: 'grey'}}>DevOps</h4>
+            <h4 style={{color: 'grey'}}>Devops</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '80%'}}/>
             <p>Bachelor Degree in Computer Science from Universidade Paulista, where I had the privilege of a PROUNI scholarship, a degree in Computer Technician from Escola Técnica Estadual Centro Paula Souza, experience in the area of ​​Information Technology with focused on Identity Access Management and Privileged Access Management, high degree knowledge Server Windows and Linux, excellent resources for analysis, writing, reasoning, communication and information technology, recognized throughout the career for professionalism, fast learning.</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '80%'}}/>
@@ -44,15 +44,15 @@ class Resume extends Component {
             <Education
               startYear={2015}
               endYear={2019}
-              schoolName="Universidade Paulista (São Paulo)"
-              schoolDescription="Bachelor's in Computer Science"
+              schoolName="Universidade Paulista (UNIP)"
+              schoolDescription="Bachelor's in Computer Science."
                />
 
                <Education
                  startYear={2012}
                  endYear={2014}
-                 schoolName="Escola Técnica Estadual Centro Paula Souza"
-                 schoolDescription="Computer Technician"
+                 schoolName="Escola Técnica Estadual (ETEC)"
+                 schoolDescription="Computer Technician."
                   />
                 <hr style={{borderTop: '3px solid #e22947'}} />
 
@@ -61,7 +61,7 @@ class Resume extends Component {
             <Experience
               startYear={2017}
               endYear={2019}
-              jobName="AutoSeg - DevOps"
+              jobName="AutoSeg - Devops"
               jobDescription="Working with support (level 1 to 3), scrum, implementation, development (Ruby on Rails, Power Shell and Shell Script) and POC of the software AutoSeg (IAM - Identity Management Access) or the software Passmonki (PAM, Privileged Access Management), administation and configurarion in servers Linux / Windows / VPN and AWS, database management PostgreSql and MySQL, versioning tool (GitHub), sprint planning and client management."
               />
 
@@ -88,8 +88,8 @@ class Resume extends Component {
 
               <hr style={{borderTop: '3px solid #e22947'}} />
                 <Experience
-                  jobName="Technologies of daily life:"
-                  jobDescription="Docker, Docker-Compose, MacOS, Linux (CentOS, Red Hat), Windows Server, Ruby on Rails, GitHub, VPN, API, Shell Script, Power Shell, Python, JavaScript, CSS, SOAP."
+                  jobName="Technologies used everyday"
+                  jobDescription="Docker, Docker-Compose, MacOS, Linux (CentOS, Red Hat), Windows Server, Ruby on Rails, GitHub, SemaphoreCI, Slack, Redmine, VPN, API, AWS, PFsense, Shell Script, Power Shell, Python, JavaScript, CSS, SOAP."
                   />
 
               <hr style={{borderTop: '3px solid #e22947'}} />
@@ -101,14 +101,22 @@ class Resume extends Component {
                   <Skills progress={90} />
                 GitHub
                   <Skills progress={85} />
-                Network
+                Network / Security
                   <Skills progress={80} />
                 Ruby on Rails
                   <Skills progress={75} />
                 Shell Script
                   <Skills progress={70} />
+                Docker / Docker-Compose
+                  <Skills progress={65} />
                 Python
                   <Skills progress={60} />
+                SemaphoreCI
+                  <Skills progress={55} />
+                Jenkins
+                  <Skills progress={50} />
+                Puppet
+                  <Skills progress={45} />
                 React
                   <Skills progress={40} />
                 HTML / CSS
