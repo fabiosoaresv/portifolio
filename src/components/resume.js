@@ -31,7 +31,7 @@ class Resume extends Component {
             <h5>Email</h5>
             <p>fabiosoares@outlook.com.br</p>
             <div className="landing-grid-link">
-              <h5>Currículo (PDF)</h5>
+              <h5>Resume</h5>
               <a href="https://drive.google.com/open?id=1u4oYnhcoSlPvsPdU_aBm02wA43PAqiVn" rel="noopener noreferrer" target="_blank">
                 <p><i className="fa fa-link" aria-hidden="true" /> download</p>
               </a>
