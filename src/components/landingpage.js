@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-
+import { Link } from 'react-router-dom';
 
 class Landing extends Component {
   render() {
@@ -49,9 +49,9 @@ class Landing extends Component {
           </a>
 
           {/* Outlook */}
-          <a href="contact" rel="noopener noreferrer" target="_blank">
+          <Link to="/contact">
             <i className="fa fa-envelope-square" aria-hidden="true" />
-          </a>
+          </Link>
 
         </div>
             </div>
