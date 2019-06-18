@@ -22,7 +22,6 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/fabiosoaresv/1food" rel="noopener noreferrer" target="_blank">Github</a></Button>
-              <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -37,7 +36,6 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/fabiosoaresv/photogram" rel="noopener noreferrer" target="_blank">Github</a></Button>
-              <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -71,7 +69,6 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/fabiosoaresv/onefood_api" rel="noopener noreferrer" target="_blank">Github</a></Button>
-              <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -86,7 +83,6 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/fabiosoaresv/photogram" rel="noopener noreferrer" target="_blank">Github</a></Button>
-              <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -115,13 +111,13 @@ class Projects extends Component {
 
           {/* Project Schedule */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#6495ED', height: '176px', background: 'url(https://user-images.githubusercontent.com/31450742/42484550-daf45e40-83c9-11e8-8293-6f13fbbdc03f.png) center / cover'}} >SCHEDULE</CardTitle>
+            <CardTitle style={{color: '#6495ED', height: '176px', background: 'url(https://user-images.githubusercontent.com/31450742/59577039-59f26f80-9098-11e9-8dc8-f78f329f539d.png) center / cover'}} >SCHEDULE</CardTitle>
             <CardText>
               This app is a schedule, where you can add your contacts.
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/fabiosoaresv/schedule" rel="noopener noreferrer" target="_blank">Github</a></Button>
-              <Button colored>Live Demo</Button>
+              <Button colored><a href="https://sch3dule.herokuapp.com/" rel="noopener noreferrer" target="_blank">Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -136,7 +132,6 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/fabiosoaresv/envurban" rel="noopener noreferrer" target="_blank">Github</a></Button>
-              <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -155,7 +150,6 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/fabiosoaresv/camgnition" rel="noopener noreferrer" target="_blank">Github</a></Button>
-              <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -170,7 +164,6 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/fabiosoaresv/pyhooma" rel="noopener noreferrer" target="_blank">Github</a></Button>
-              <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -185,7 +178,6 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/fabiosoaresv/ventcoin" rel="noopener noreferrer" target="_blank">Github</a></Button>
-              <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
