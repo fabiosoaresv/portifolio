@@ -15,11 +15,11 @@ class Landing extends Component {
               />
 
             <div className="banner-text">
-              <h1>DevOps</h1>
+              <h1>Devops</h1>
 
             <hr/>
 
-          <p>DevOps | Development | Infra Agile | InfoSec | Scrum</p>
+          <p>Devops | Development | Infra Agile | InfoSec | Scrum</p>
 
         <div className="social-links">
 
@@ -49,7 +49,7 @@ class Landing extends Component {
           </a>
 
           {/* Outlook */}
-          <a href="fabiosoares@outlook.com" rel="noopener noreferrer" target="_blank">
+          <a href="contact" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-envelope-square" aria-hidden="true" />
           </a>
 
