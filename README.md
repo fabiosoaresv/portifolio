@@ -1,17 +1,19 @@
-# [YouTube Tutorial](https://www.youtube.com/playlist?list=PL3KAvm6JMiowqFTXj3oPQkhP7aCgRHFTm)
-I created a Youtube code along tutorial for this project. Click the link above to view!
+# Photogram
+This is a small project about my resume. I'm use technology Node to development this.
 
-# react-portfolio-starter
-A React based personal portfolio app using create-react-app and React Router v4.
+# How to run
+### Dependencies
+- `yarn`
+- `node`
 
-# Tools
-* create-react-app cli
-* React MDL material design
-* React Router v4
+### Start
+- Clone the project Server
+`$ git clone https://github.com/fabiosoaresv/portfolio.git`
 
-# Start App
-Clone repo, install, cd into folder and run:
-```git
-npm install
-npm start
-```
+- Start development server
+`$ npm install`
+`$ yarn start`
+
+# Developed by
+* Fabio Soares @ 06/16/2019 / Updated last @ 06/18/2019
+* fabiosoares@outlook.com.br

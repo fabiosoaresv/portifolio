@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-
+import { Link } from 'react-router-dom';
 
 class Landing extends Component {
   render() {
@@ -15,45 +15,43 @@ class Landing extends Component {
               />
 
             <div className="banner-text">
-              <h1>DevOps</h1>
+              <h1>Devops</h1>
 
             <hr/>
 
-          <p>DevOps | Development | Infra Agile | InfoSec | Scrum</p>
+            <p>Devops | Development | Infra Agile | InfoSec | Scrum</p>
 
-        <div className="social-links">
+              <div className="social-links">
+                {/* LinkedIn */}
+                <a href="https://www.linkedin.com/in/fabio-soaresv/" rel="noopener noreferrer" target="_blank">
+                  <i className="fa fa-linkedin-square" aria-hidden="true" />
+                </a>
 
-          {/* LinkedIn */}
-          <a href="https://www.linkedin.com/in/fabio-soaresv/" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-linkedin-square" aria-hidden="true" />
-          </a>
+                {/* Github */}
+                <a href="https://github.com/fabiosoaresv" rel="noopener noreferrer" target="_blank">
+                  <i className="fa fa-github-square" aria-hidden="true" />
+                </a>
 
-          {/* Github */}
-          <a href="https://github.com/fabiosoaresv" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-github-square" aria-hidden="true" />
-          </a>
+                {/* WhatsApp */}
+                <a href="https://api.whatsapp.com/send?phone=5511959164508" rel="noopener noreferrer" target="_blank">
+                  <i className="fa fa-whatsapp" aria-hidden="true" />
+                </a>
 
-          {/* WhatsApp */}
-          <a href="https://api.whatsapp.com/send?phone=5511959164508" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-whatsapp" aria-hidden="true" />
-          </a>
+                {/* Facebook */}
+                <a href="https://www.facebook.com/faasoaresv" rel="noopener noreferrer" target="_blank">
+                  <i className="fa fa-facebook-square" aria-hidden="true" />
+                </a>
 
-          {/* Facebook */}
-          <a href="https://www.facebook.com/faasoaresv" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-facebook-square" aria-hidden="true" />
-          </a>
+                {/* Instagram */}
+                <a href="https://www.instagram.com/fbosoave" rel="noopener noreferrer" target="_blank">
+                  <i className="fa fa-instagram" aria-hidden="true" />
+                </a>
 
-          {/* Instagram */}
-          <a href="https://www.instagram.com/fbosoave" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-instagram" aria-hidden="true" />
-          </a>
-
-          {/* Outlook */}
-          <a href="fabiosoares@outlook.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-envelope-square" aria-hidden="true" />
-          </a>
-
-        </div>
+                {/* Outlook */}
+                <Link to="/contact">
+                  <i className="fa fa-envelope-square" aria-hidden="true" />
+                </Link>
+              </div>
             </div>
           </Cell>
         </Grid>

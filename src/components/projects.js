@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 
 
@@ -18,11 +17,10 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#6495ED', height: '176px', background: 'url(https://user-images.githubusercontent.com/31450742/59531406-396dbe00-8ebc-11e9-9355-237f7cd29752.png) center / cover'}} >ONEFOOD</CardTitle>
             <CardText>
-              This app is based in iFood, where you can make buy food online in several restaurants.
+              iFood based app, where you can buy food online in several restaurants.
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/fabiosoaresv/1food" rel="noopener noreferrer" target="_blank">Github</a></Button>
-              <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -33,11 +31,10 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#6495ED', height: '176px', background: 'url(https://user-images.githubusercontent.com/31450742/59495401-92f6ce00-8e65-11e9-978e-b1022aa7f8aa.gif) center / cover'}} >PHOTOGRAM</CardTitle>
             <CardText>
-              This app is based in Instagram, where you can make uploads from your photos, and like others photos.
+              Instagram based app, where you can make uploads from your photos, and like others photos.
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/fabiosoaresv/photogram" rel="noopener noreferrer" target="_blank">Github</a></Button>
-              <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -46,13 +43,13 @@ class Projects extends Component {
 
           {/* Project Portfolio */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#6495ED', height: '176px', background: 'url(https://user-images.githubusercontent.com/31450742/59531406-396dbe00-8ebc-11e9-9355-237f7cd29752.png) center / cover'}} >PORTFÓLIO</CardTitle>
+            <CardTitle style={{color: '#6495ED', height: '176px', background: 'url(https://user-images.githubusercontent.com/31450742/59555897-802ce800-8f90-11e9-9f26-f61386dcf89c.png) center / cover'}} >PORTFÓLIO</CardTitle>
             <CardText>
               This is my project about my portfolio.
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/fabiosoaresv/portfolio" rel="noopener noreferrer" target="_blank">Github</a></Button>
-              <Button colored>Live Demo</Button>
+              <Button colored><a href="http://fabiosoares.herokuapp.com" rel="noopener noreferrer" target="_blank">Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -67,11 +64,10 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#6495ED', height: '176px', background: 'url(https://user-images.githubusercontent.com/31450742/56941030-23f92c00-6ae8-11e9-88fa-33bcd4285bf0.png) center / cover'}} >ONEFOOD API</CardTitle>
             <CardText>
-              The app is based in microservices as Server and Client to work, to development I used the Ruby on Rails.
+              App based in microservices as Server and Client to work, to development I used the Ruby on Rails.
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/fabiosoaresv/onefood_api" rel="noopener noreferrer" target="_blank">Github</a></Button>
-              <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -82,11 +78,10 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#6495ED', height: '176px', background: 'url(https://user-images.githubusercontent.com/31450742/59320161-ac501c80-8ca3-11e9-9455-e1a6c9956ee0.png) center / cover'}} >PHOTOGRAM API</CardTitle>
             <CardText>
-              The app is based in microservices as Server and Client to work, to development I used the Node.
+              App based in microservices as Server and Client to work, to development I used the Node.
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/fabiosoaresv/photogram" rel="noopener noreferrer" target="_blank">Github</a></Button>
-              <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -101,11 +96,11 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#6495ED', height: '176px', background: 'url(https://user-images.githubusercontent.com/31450742/59542465-67fb9100-8edc-11e9-8777-03e29abda023.gif) center / cover'}} >DO IT NOW</CardTitle>
             <CardText>
-              The app is based in checklist in things what you have to do, and use authentication with e-mail and password, making the privacy activities each user.
+              Checklist based app in things what you have to do, and use authentication with e-mail and password, making the privacy activities each user.
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/fabiosoaresv/doitnow" rel="noopener noreferrer" target="_blank">Github</a></Button>
-              <Button colored>Live Demo</Button>
+              <Button colored><a href="https://doitn0w.herokuapp.com/" rel="noopener noreferrer" target="_blank">Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -114,13 +109,13 @@ class Projects extends Component {
 
           {/* Project Schedule */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#6495ED', height: '176px', background: 'url(https://user-images.githubusercontent.com/31450742/42484550-daf45e40-83c9-11e8-8293-6f13fbbdc03f.png) center / cover'}} >SCHEDULE</CardTitle>
+            <CardTitle style={{color: '#6495ED', height: '176px', background: 'url(https://user-images.githubusercontent.com/31450742/59577039-59f26f80-9098-11e9-8dc8-f78f329f539d.png) center / cover'}} >SCHEDULE</CardTitle>
             <CardText>
-              This app is a schedule, where you can add your contacts.
+              Schedule based app, where you can add your contacts.
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/fabiosoaresv/schedule" rel="noopener noreferrer" target="_blank">Github</a></Button>
-              <Button colored>Live Demo</Button>
+              <Button colored><a href="https://sch3dule.herokuapp.com/" rel="noopener noreferrer" target="_blank">Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -135,7 +130,6 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/fabiosoaresv/envurban" rel="noopener noreferrer" target="_blank">Github</a></Button>
-              <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -154,7 +148,6 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/fabiosoaresv/camgnition" rel="noopener noreferrer" target="_blank">Github</a></Button>
-              <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -169,7 +162,6 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/fabiosoaresv/pyhooma" rel="noopener noreferrer" target="_blank">Github</a></Button>
-              <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -184,7 +176,6 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/fabiosoaresv/ventcoin" rel="noopener noreferrer" target="_blank">Github</a></Button>
-              <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -195,8 +186,6 @@ class Projects extends Component {
     }
   }
 
-
-
   render() {
     return(
       <div>
@@ -206,15 +195,11 @@ class Projects extends Component {
           <Tab>Ruby</Tab>
           <Tab>Scripts</Tab>
         </Tabs>
-
-
           <Grid>
             <Cell col={12}>
               <div className="content">{this.toggleCategories()}</div>
             </Cell>
           </Grid>
-
-
       </div>
     )
   }
