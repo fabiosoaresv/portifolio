@@ -14,23 +14,17 @@ class Contact extends Component {
               className="avatar-img"
               />
 
-            <div className="banner-text">
-
-            <div className="contact-list">
-            <h1>Contact</h1>
-            <hr/>
-            <List>
-
-            <h2><i className="fa fa-whatsapp" aria-hidden="true"/>
-            +55 11 95916-4508</h2>
-            <h3><i className="fa fa-envelope" aria-hidden="true"/>
-            fabiosoares@outlook.com.br</h3>
-
-            </List>
-
-            </div>
-
-
+            <div className="banner-text" >
+              <div className="contact-list">
+                <h4>Contact</h4>
+                <hr/>
+                  <List>
+                    <h2><i className="fa fa-whatsapp" aria-hidden="true"/>
+                      +55 11 95916-4508</h2>
+                    <h3><i className="fa fa-envelope" aria-hidden="true"/>
+                      fabiosoares@outlook.com.br</h3>
+                  </List>
+              </div>
             </div>
           </Cell>
         </Grid>
@@ -38,4 +32,5 @@ class Contact extends Component {
     )
   }
 }
+
 export default Contact;
