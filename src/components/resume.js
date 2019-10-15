@@ -3,6 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import LogoImage from '../assets/images/image2.jpg';
 
 
 class Resume extends Component {
@@ -13,7 +14,7 @@ class Resume extends Component {
           <Cell col={4} className="resume-left-col">
             <div style={{textAlign: 'center'}}>
               <img style={{width: 270}, {height: 270}, {borderRadius: '300px'}}
-                src="https://scontent.fmii3-1.fna.fbcdn.net/v/t1.0-9/16387052_1084730848323322_719267487868919350_n.jpg?_nc_cat=107&_nc_oc=AQlXcfYBlSsB_MMbxwQx3uzMstADI9U262yNC8VqciTJYGzrXllYPzo84ojkcVxsjKc&_nc_ht=scontent.fmii3-1.fna&oh=6a95381e906a68714ac2ca0a9812a621&oe=5D8739ED"
+                src={LogoImage}
                 alt="avatar"
                 className="avatar-img"
               />

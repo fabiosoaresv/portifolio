@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List } from 'react-mdl';
-
+import LogoImage from '../assets/images/image1.jpeg';
 
 class Contact extends Component {
   render() {
@@ -9,7 +9,7 @@ class Contact extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img style={{width: 270}, {height: 270}, {borderRadius: 150 / 1.5}}
-              src="https://scontent.fmii3-1.fna.fbcdn.net/v/t1.0-9/45320276_1762700573859676_3368581449123889152_n.jpg?_nc_cat=105&_nc_oc=AQkudEa7nuMOPa-uUpkcE3NoU52nO1O3wLXM9rxdII6i0GGWxGfbH-sEE0hy_HA2vTc&_nc_ht=scontent.fmii3-1.fna&oh=facd54ccc66495377683bf13becc80ae&oe=5D87F6E9"
+              src={LogoImage}
               alt="avatar"
               className="avatar-img"
               />
