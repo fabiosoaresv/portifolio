@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import { Link } from 'react-router-dom';
+import LogoImage from '../assets/images/image3.jpg';
 
 class Landing extends Component {
   render() {
@@ -9,7 +10,7 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img style={{width: 270}, {height: 270}, {borderRadius: 150 / 1.5}}
-              src="https://instagram.fmii3-1.fna.fbcdn.net/vp/82646ee1774dd4da9135fe538fba5265/5D9CDE1F/t51.2885-15/e35/56913508_2160844253963519_2414300729945258772_n.jpg?_nc_ht=instagram.fmii3-1.fna.fbcdn.net"
+              src={LogoImage}
               alt="avatar"
               className="avatar-img"
               />
@@ -19,7 +20,7 @@ class Landing extends Component {
 
             <hr/>
 
-            <p>Devops | Development | Infra Agile | InfoSec | Scrum</p>
+            <p>Devops | Development | Infra Agile | InfoSec | Scrum | Ruby on Rails</p>
 
               <div className="social-links">
                 {/* LinkedIn */}
