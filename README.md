@@ -1,5 +1,5 @@
 # Portfolio
-This is a small project about my resume. I'm use technology Node to development this.
+This is a small project about my resume. I'm use technology React to development this.
 
 # How to run
 ### Dependencies
